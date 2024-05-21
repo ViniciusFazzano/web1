@@ -14,11 +14,10 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
             <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
-            <img src="VaultBoyFO3.webp" class="bonecoMenu">
+            <img src="imagens/VaultBoyFO3.webp" class="bonecoMenu">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,10 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="telaProd.html">Produtos</a>
+                        <a class="nav-link" href="telaCad.html">Inscreva-se</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="telaProd.html">Produtos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://fallout.fandom.com/wiki/Fallout_Wiki">Wiki</a>
@@ -44,39 +46,93 @@
             </div>
         </div>
     </nav>
-
-
-    <div class="container mt-2">
-        <h4 class="mb-3">Cadastro Nuclear</h4>
-        <form action="" class="row g-3">
-
-            <div class=" mb-2 col-12">
-                <span class="input-group-text" id="inputGroup-sizing-default">Nome</span>
-                <input type="text" class="form-control" aria-label="Sizing example input"
-                    aria-describedby="inputGroup-sizing-default">
+    <div class="container row g-3">
+        <div class="card mb-2 me-2 col-3" style="width: 18rem;">
+            <img src="imagens/fallout76.avif" class="card-img-top" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Fallout 76</h5>
+                <p class="card-text"> Jogo Mundo aberto ate 24 jogadores fuzilando inimigos juntos!! </p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
             </div>
-
-            <div class=" mb-2 col-6">
-                <span class="input-group-text" id="inputGroup-sizing-default">NukaFone</span>
-                <input type="text" class="form-control" aria-label="Sizing example input" id="telefone"
-                    aria-describedby="inputGroup-sizing-default" maxlength="11" oninput="mascaraTel(this.value)">
+        </div>
+        <div class="card mb-2 me-2 col-3" style="width: 14rem;">
+            <img src="imagens/falloutNewViegas.jfif" class="card-img-top" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Fallout New Vegas</h5>
+                <p class="card-text"> Jogo Mundo aberto ate 24 jogadores fuzilando inimigos juntos!! </p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
             </div>
-
-            <div class=" mb-2 col-6">
-                <span class="input-group-text" id="inputGroup-sizing-default">ID ENCLAVE</span>
-                <input type="text" class="form-control" aria-label="Sizing example input"
-                    aria-describedby="inputGroup-sizing-default" maxlength="11" id="cpf"
-                    oninput="mascaraCpf(this.value)">
+        </div>
+        <div class="card mb-2 me-2 col-3" style="width: 15rem;">
+            <img src="imagens/Fallout3.webp" class="card-img-top" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Fallout 76</h5>
+                <p class="card-text"> Jogo Mundo aberto ate 24 jogadores fuzilando inimigos juntos!! </p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
             </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn btn-primary" onclick="alertaCadastro()" type="button">Cadastrar</button>
+        </div>
+        <div class="card mb-2 me-2 col-3" style="width: 14rem;">
+            <img src="imagens/fallout4.jpg" class="card-img-top" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Fallout 76</h5>
+                <p class="card-text"> Jogo Mundo aberto ate 24 jogadores fuzilando inimigos juntos!! </p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
             </div>
-        </form>
+        </div>
+        <div class="card mb-2 me-2 col-3" style="width: 12rem;">
+            <img src="imagens/fallout1.jpg" class="card-img-top" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Fallout 76</h5>
+                <p class="card-text"> Jogo Mundo aberto ate 24 jogadores fuzilando inimigos juntos!! </p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+        </div>
 
+        <div class="card mb-2 me-2 col-3" style="width: 18rem;">
+            <img src="imagens/fallout76.avif" class="card-img-top" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Fallout 76</h5>
+                <p class="card-text"> Jogo Mundo aberto ate 24 jogadores fuzilando inimigos juntos!! </p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+        </div>
+        <div class="card mb-2 me-2 col-3" style="width: 14rem;">
+            <img src="imagens/falloutNewViegas.jfif" class="card-img-top" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Fallout New Vegas</h5>
+                <p class="card-text"> Jogo Mundo aberto ate 24 jogadores fuzilando inimigos juntos!! </p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+        </div>
+        <div class="card mb-2 me-2 col-3" style="width: 15rem;">
+            <img src="imagens/Fallout3.webp" class="card-img-top" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Fallout 76</h5>
+                <p class="card-text"> Jogo Mundo aberto ate 24 jogadores fuzilando inimigos juntos!! </p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+        </div>
+        <div class="card mb-2 me-2 col-3" style="width: 14rem;">
+            <img src="imagens/fallout4.jpg" class="card-img-top" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Fallout 76</h5>
+                <p class="card-text"> Jogo Mundo aberto ate 24 jogadores fuzilando inimigos juntos!! </p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+        </div>
+        <div class="card mb-2 me-2 col-3" style="width: 12rem;">
+            <img src="imagens/fallout1.jpg" class="card-img-top" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Fallout 76</h5>
+                <p class="card-text"> Jogo Mundo aberto ate 24 jogadores fuzilando inimigos juntos!! </p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+        </div>
+
+        
     </div>
 
-
-    <footer class="container-fluid mt-auto" style="position: fixed;bottom: 0px;">
+    <footer class="container-fluid mt-auto" style="bottom: 0px;">
         © 2024 Fallout Fan Page
     </footer>
     <script src="index.js"></script>
