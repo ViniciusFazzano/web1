@@ -19,10 +19,38 @@ function mascaraCpf(value) {
   document.getElementById("cpf").value = textoAjustado;
 }
 
-function alertaCadastro(){
+function alertaCadastro() {
   Swal.fire({
     title: "Cadastro Nukastico Completo",
     text: "Bem Vindo ao Enclave",
     icon: "success"
   });
+}
+
+let cont = 0;
+function alertaCompra(value) {
+  Swal.fire({
+    title: value + " adicionado com sucesso!",
+    text: "Parabens",
+    icon: "success"
+  });
+  cont ++;
+  // sessionStorage.setItem('cont',quantProd);
+  document.getElementById('contador').style.display = 'flex'
+  document.getElementById('contador').innerText = 'Prod. adicionados : ' + cont;
+
+}
+function camposCard{
+  var spanTesteModelo = $('span-modelo').html();
+  var spanTesteModelo_string = spanTesteModelo.toString();
+  var campos = $("#numero_parcelas").val();
+
+  var i;
+  i=1;
+  var texto = '';
+  while (i<=campos) {
+    texto = texto+ spanTesteModelo_string.replace(/-0/g,'-'+i.toString())
+    i=i+1;
+    $("span-real").html(texto);
+  }
 }
