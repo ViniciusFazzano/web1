@@ -1,0 +1,37 @@
+[
+    {
+        "imgSrc": "imagens/fallout1.jpg",
+        "title": "Fallout 1",
+        "description": "Jogo Mundo aberto até 24 jogadores fuzilando inimigos juntos!!",
+        "onclick": "alertaCompra('fallout1')",
+        "width": "12rem"
+    },
+    {
+        "imgSrc": "imagens/fallout4.jpg",
+        "title": "Fallout 4",
+        "description": "Jogo Mundo aberto até 24 jogadores fuzilando inimigos juntos!!",
+        "onclick": "alertaCompra('fallout4')",
+        "width": "14rem"
+    },
+    {
+        "imgSrc": "imagens/falloutNewViegas.jfif",
+        "title": "Fallout New Vegas",
+        "description": "Jogo Mundo aberto até 24 jogadores fuzilando inimigos juntos!!",
+        "onclick": "alertaCompra('fallout new vegas')",
+        "width": "14rem"
+    },
+    {
+        "imgSrc": "imagens/Fallout3.webp",
+        "title": "Fallout 3",
+        "description": "Jogo Mundo aberto até 24 jogadores fuzilando inimigos juntos!!",
+        "onclick": "alertaCompra('fallout3')",
+        "width": "14rem"
+    },
+    {
+        "imgSrc": "imagens/fallout1.jpg",
+        "title": "Fallout 1",
+        "description": "Jogo Mundo aberto até 24 jogadores fuzilando inimigos juntos!!",
+        "onclick": "alertaCompra('fallout1')",
+        "width": "12rem"
+    }
+]
